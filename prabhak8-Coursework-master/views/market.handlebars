@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Home Page</title>
+<meta name="description" content="Market">
+<meta name="author" content="Rishiketh Prabhakr">
+<link href="style.css" type="text/css" rel="stylesheet" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+</head>
+<body>
+<nav>
+<ul>
+<li><a href="/">Home</a></li>
+<li><a href="/profile">Profile</a></li>
+<li><a href="/addPhotos">Add Photo</a></li>
+<li><a href="/">Innovative</a></li>
+<li><a href="/market">Market</a></li>
+ <li><a href="/logout">Log Out</a></li>
+</ul>
+</nav>
+<p>
+Innovative
+</p>
+<h3> Click On The Images for more info</h3>
+<article>
+<img src="http://c1.staticflickr.com/9/8450/8026519634_f33f3724ea_b.jpg" alt="<p><a href='buy'><button>About Image </button></a></p>" onclick="myFunction(this);">
+<img src="http://c2.staticflickr.com/8/7218/7209301894_c99d3a33c2_h.jpg" alt="<p><a href='buy'><button>About Image </button></a></p>" onclick="myFunction(this);">
+<img src="http://c2.staticflickr.com/8/7231/6947093326_df216540ff_b.jpg" alt="<p><a href='buy'><button>About Image </button></a></p>" onclick="myFunction(this);">
+<img src="http://c1.staticflickr.com/9/8788/17367410309_78abb9e5b6_b.jpg" alt="<p><a href='buy'><button>About Image </button></a></p>" onclick="myFunction(this);">
+</article>
+
+<section>
+<article>
+<strong onclick="this.parentElement.style.display='none'">&times;</strong>
+<img id="expandedImg"  style="width:30%"/>
+<article id="imgtext"></article>
+</article>
+</section>
+
+<script>
+function myFunction(imgs) {
+var expandImg = document.getElementById("expandedImg");
+var imgText = document.getElementById("imgtext");
+expandImg.src = imgs.src;
+imgText.innerHTML = imgs.alt;
+expandImg.parentElement.style.display = "block";
+}
+</script>
+</html>

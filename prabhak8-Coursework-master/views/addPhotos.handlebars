@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Home Page</title>
+<meta name="description" content="Add Photos">
+<meta name="author" content="Rishiketh Prabhakr">
+<link href="style.css" type="text/css" rel="stylesheet" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+</head>
+<body>
+<nav>
+<ul>
+<li><a href="/">Home</a></li>
+<li><a href="/profile">Profile</a></li>
+<li><a href="/addPhotos">Add Photo</a></li>
+<li><a href="/">Innovative</a></li>
+<li><a href="/market">Market</a></li>
+<li><a href="/logout">Log Out</a></li>
+</ul>
+</nav>
+<p>
+Innovative
+</p>
+<form action="/addPhotos" enctype="multipart/form-data" method="post">
+<p><label>Add a new Photo Here:<input type="file" name="image"></label></p>
+<p><label><input type="submit" value="Add Image"></label></p>
+</form>
+<section>
+<img src="adminphotos/keth.gif" alt="gif"/>
+</section>
+</html>

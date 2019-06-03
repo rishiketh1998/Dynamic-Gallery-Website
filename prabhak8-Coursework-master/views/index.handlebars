@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Home Page</title>
+<meta name="description" content="Home Page">
+<meta name="author" content="Rishiketh Prabhakr">
+<link href="style.css" type="text/css" rel="stylesheet" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+</head>
+<body>
+<nav>
+<ul>
+<li><a href="/">Home</a></li>
+<li><a href="/profile">Profile</a></li>
+<li><a href="/addPhotos">Add Photo</a></li>
+<li><a href="/">Innovative</a></li>
+<li><a href="/market">Market</a></li>
+<li><a href="/logout">Log Out</a></li>
+</ul>
+</nav>
+<h1>Photos added by You</h1>
+{{#each imgs}}  
+<img src="{{this}}" alt="{{this}}"  style="width:55%"/>
+<form action = "/" enctype="multipart/form-data" method="POST">
+<h2>Title: Psychid</h2><h3>Description</h3> <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the </p>
+<h2>price 37$</h2>
+</form>
+{{/each}}
+</html>

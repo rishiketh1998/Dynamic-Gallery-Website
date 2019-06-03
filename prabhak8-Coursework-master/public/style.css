@@ -1,0 +1,288 @@
+html{
+background-color: black;
+background-image:url("https://media0.giphy.com/media/26n6G8lRMOrYC6rFS/giphy.gif?cid=790b76115cafa63668496e62453cd09d");
+background-size: cover;
+
+}
+
+section{
+padding-top: 25px;
+padding-bottom: 25px;
+}
+
+section > form {
+border: 2px solid rgb(0,152,159);
+margin-left: 31%;
+background-color: white;
+margin-right: 33%;
+padding-left: 20px;
+padding-right: 25px;
+color: black;
+
+}
+
+body > p{
+font-size : 55px;
+color: rgb(0,152,159);
+font-style: italic;
+font-weight: bold;
+font-family: 'Indie Flower', cursive;
+margin-left: 75%;
+margin-top:3%;
+}
+body > p:hover {
+color: purple;
+}
+
+
+form > p {
+font-size : 25px;
+font-family: 'Abel', sans-serif;
+font-weight: bold;
+}
+
+
+form > p:first-child > input{
+
+width:85%;
+
+padding-bottom:10px;
+padding-top:10px;
+padding-right: 40px;
+padding-left: 10px;
+margin-top: 2%;
+border: 3px solid #555;
+border-radius: 8px;
+}
+
+form > p:nth-child(2) > input{
+width:85%;
+padding-bottom:10px;
+padding-top:10px;
+padding-right: 40px;
+padding-left: 10px;
+margin-top: 2%;
+border: 3px solid #555;
+border-radius: 8px;
+}
+
+form > p:nth-child(3) > input{
+width:25%;
+margin-left: 35%;
+background-color: white;
+color: black;
+border: 2px solid rgb(0,152,159);
+font-weight: bold;
+border-radius: 8px;
+font-size:18px;
+font-family: 'Amiko', sans-serif;
+
+}
+
+form > p:nth-child(4) > button{
+width:25%;
+margin-left: 75%;
+background-color: white;
+color: black;
+font-weight: bold;
+border-radius: 8px;
+font-size:16px;
+font-family: 'Amiko', sans-serif;
+}
+
+form > p:nth-child(4) > button > a:link {
+color: black;
+text-decoration: none;
+}
+form > p:nth-child(4) > button > a:visited {
+color: black;
+text-decoration: none;
+}
+
+form > section > p{
+font-family: 'Abel', sans-serif;
+font-weight: bold;
+font-size: 17px;
+margin-left: 10%;
+margin-top: 2%;
+}
+
+section > h1{
+padding-bottom: 8px;
+margin-left: 33%;
+font-family: 'Abel', sans-serif;
+font-weight: bold;
+font-size: 25px;
+}
+
+form >  h1 {
+margin-left: 40%;
+font-family: 'Amiko', sans-serif;;
+font-weight: bold;
+font-size: 45px;
+}
+
+form > section > p:nth-child(6) > input{
+width: 15%;
+height: 30px;
+background-color: white;
+color: black;
+border: 3px solid #555;
+font-weight: bold;
+border-radius: 8px;
+font-size:16px;
+font-family: 'Amiko', sans-serif;
+margin-top: 1%;
+}
+
+
+form > section > p:nth-child(7) {
+font-size: 25px;
+
+}
+
+section > img {
+width: 60%;
+height: 30%;
+float: left;
+margin-right: 5%;
+margin-bottom: 5%;
+}
+
+
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: rgb(0,165,156);
+}
+
+li {
+float: left;
+}
+nav{
+margin-top:1%;
+
+}
+
+li>a {
+display: block;
+color: black;
+font-weight: bold;
+font-size: 20px;
+font-family: 'Indie Flower', cursive;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+float:right;
+}
+
+li>a:hover:not(.active) {
+background-color: rgb(127,25,154);
+}
+
+form > p > label{
+margin-left: 30%;
+font-weight: bold;
+font-size: 20px;
+font-family: 'Indie Flower', cursive;
+text-align: center;
+
+}
+
+form > p > label > input{
+width:100%;
+margin-left: 35%;
+background-color: white;
+color: black;
+border: 2px solid rgb(0,152,159);
+font-weight: bold;
+border-radius: 8px;
+font-size:18px;
+font-family: 'Amiko', sans-serif;
+}
+
+section > img {
+width: 35%;
+height: 10%;
+margin-left: 33%;
+margin-top: 7%;
+}
+
+section > p:first-child > img {
+width: 30%;
+height: 30%;
+border: 2px solid red;
+
+}
+
+li:last-child{
+float: right;
+font-weight: bold;
+font-size: 20px;
+font-family: 'Indie Flower', cursive;
+}
+
+li:nth-child(4){
+float: right;	
+}
+
+section:nth-child(2){
+background-color: white;
+margin-top: 10%;
+padding-top:15px;
+}
+
+.article {
+float: left;
+width: 25%;
+padding: 10px;
+}
+article > img{
+float: left;
+width: 20%;
+
+background-color:white;
+border: 1px solid;
+box-shadow: 0px 0px 5px 10px  #888888;
+padding: 10px;
+margin-left: 37.3px;
+margin-bottom: 33.3px;
+margin-top: 2px;
+opacity: 0.8; 
+cursor: pointer;
+}
+article > img:hover {
+opacity: 1;
+}
+strong {
+margin-top: 99%;
+top: 10px;
+right: 15px;
+color: red;
+font-size: 35px;
+cursor: pointer;
+}
+
+selction > article {
+position: relative;
+display: none;
+}
+button {
+border-radius: 4px;
+background-color: #f4511e;
+border: none;
+color: #FFFFFF;
+text-align: center;
+font-size: 28px;
+font-weight: bold;
+padding: 20px;
+width: 200px;
+transition: all 0.5s;
+cursor: pointer;
+margin-left: 25%;
+}
+section >img{
+width: 35%;
+}

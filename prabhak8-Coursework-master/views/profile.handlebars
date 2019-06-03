@@ -1,0 +1,36 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Home Page</title>
+<meta name="description" content="Profile Page">
+<meta name="author" content="Rishiketh Prabhakr">
+<link href="style.css" type="text/css" rel="stylesheet" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+</head>
+<nav>
+<ul>
+<li><a href="/">Home</a></li>
+<li><a href="/profile">Profile</a></li>
+<li><a href="/addPhotos">Add Photo</a></li>
+<li><a href="/">Innovative</a></li>
+<li><a href="/market">Market</a></li>
+<li><a href="/logout">Log Out</a></li>
+</ul>
+</nav>
+<p>
+Innovative
+</p>
+<h1>Profile Picture</h1>
+<img src="{{file}}" alt={{file}}  style="width:30%"/>
+<form action="/profile" enctype="multipart/form-data" method="post">
+<section>
+<p>Username: {{getProfile.user}}
+<p>Your name: {{getProfile.user}}
+<label>
+</label>
+</section>
+</form>
+</body>
+</html>

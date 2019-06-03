@@ -1,0 +1,35 @@
+{
+  "name": "10_auth",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage --detectOpenHandles"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.3",
+    "bcrypt-promise": "^2.0.0",
+    "fs-extra": "^7.0.1",
+    "handlebars": "^4.1.0",
+    "jimp": "^0.6.0",
+    "koa": "^2.6.2",
+    "koa-body": "^4.0.8",
+    "koa-bodyparser": "^4.2.1",
+    "koa-router": "^7.4.0",
+    "koa-session": "^5.10.1",
+    "koa-static": "^5.0.0",
+    "koa-views": "^6.1.5",
+    "mime-types": "^2.1.22",
+    "sqlite-async": "^1.0.11"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "jest": "^24.1.0",
+    "puppeteer": "^1.12.2"
+  }
+}

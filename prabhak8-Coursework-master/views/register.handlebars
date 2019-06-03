@@ -1,0 +1,38 @@
+
+<!doctype html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Create an Account</title>
+<meta name="description" content="Register Page">
+<meta name="author" content="Rishiketh Prabhakr">
+<link href="style.css" type="text/css" rel="stylesheet" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+</head>
+<body>
+<p>
+Innovative
+</p>
+{{#if msg}}
+<p class="msg">{{msg}}</p>
+{{/if}}
+<form action="/register" enctype="multipart/form-data" method="post">
+<h1>Register Page</h1>
+<section>
+<p>Username: <input type="text" name="user" placeholder="your preferred username (no spaces)" value=""></p>
+<p>Full Name: <input type="text" name="rlName" placeholder="your name" value=""></p>
+<p>Password: <input type="password" name="pass" placeholder="your chosen password" value=""></p>
+<p><label>Country: <select name="countries" id="countries">
+<option value="">--Please choose where you are from--</option>
+{{#each countries}}
+<option value={{this.code}}>{{this.name}}</option>
+{{/each}}
+</select></label></p>
+<p>Profile Picture: <input type="file" name="avatar"></p>
+<p><input type="submit" value="Create"></p>
+<p><a href = "/login">Back to Login page</a></p>
+</section>
+</form>
+</body>
+</html>
